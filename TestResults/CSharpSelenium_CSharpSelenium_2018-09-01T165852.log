@@ -1,0 +1,55 @@
+﻿2018-09-01T16:58:52.4671684+10:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-09-01T16:58:52.4681674+10:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.2 execution started
+2018-09-01T16:58:52.4681674+10:00;VSTestExecutionThread;Info;TestAdapter Location: D:\Visual_Studio_Project\CSharpSelenium\CSharpSelenium\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-09-01T16:58:52.6010754+10:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-09-01T16:58:52.6010754+10:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\Visual_Studio_Project\CSharpSelenium\CSharpSelenium\bin\Debug\CSharpSelenium.dll
+2018-09-01T16:58:52.6010754+10:00;VSTestExecutionThread;Info;Profile: CSharpSelenium
+2018-09-01T16:59:03.6863944+10:00;Thread#15;Info;Discovering target: Default
+2018-09-01T16:59:03.6863944+10:00;Thread#15;Info;Discovering tests from assembly: D:\Visual_Studio_Project\CSharpSelenium\CSharpSelenium\bin\Debug\CSharpSelenium.dll
+Appdomain Disposed
+Test Suite Dump
+#0: CSharpSelenium/CSharpSelenium - 
+#1: Default - 
+#2: CSharpSelenium - 
+#3: CSharp Selenium Project - 
+#4: Log in gmail with valid username and password - TestAssembly:CSharpSelenium/Feature:CSharp+Selenium+Project/Scenario:Log+in+gmail+with+valid+username+and+password
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for CSharpSelenium, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I am on gmail home page
+Thread#0:T:done: CSharpSeleniumProjectSteps.GivenIAmOnGmailHomePage() (6.7s)
+Thread#0:B:When I input valid username and password
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | username            | password   |
+Thread#0:B:  | ben.by.yu@gmail.com | 811025gwc@ |
+Thread#0:T:done: CSharpSeleniumProjectSteps.WhenIInputValidUsernameAndPassword(<table>) (19.1s)
+Thread#0:B:Then I should see gmail inbox
+Thread#0:T:=======================
+Thread#0:T:Inbox - ben.by.yu@gmail.com - Gmail
+Thread#0:T:=======================
+Thread#0:T:done: CSharpSeleniumProjectSteps.ThenIShouldSeeGmailInbox() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 35.4531858 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
